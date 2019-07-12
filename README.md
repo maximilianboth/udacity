@@ -1,4 +1,0 @@
-# udacity
-Udacity projects
-
-- Stage 
