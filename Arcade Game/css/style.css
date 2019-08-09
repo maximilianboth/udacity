@@ -1,0 +1,39 @@
+body {
+    background: #ffffff url('../images/background.png'); /* Background pattern from Subtle Patterns */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.score-panel {
+    margin-top: 50px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.hide {
+    display: none;
+}
+
+.hide.won {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    opacity: 1;
+}
+
+.button {
+    cursor: pointer;
+    background: rgba(6, 80, 114);
+    border-radius: 18px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+}
+
+button:hover {
+    background:rgba(24, 97, 165);
+}
